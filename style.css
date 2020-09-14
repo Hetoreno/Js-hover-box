@@ -1,0 +1,70 @@
+body{
+    background:gray;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:pink;
+    min-height:75vh;
+    width:60%;
+    margin:auto;
+}
+
+a{
+    width:25%;
+}
+
+.hover{
+    background:url(./8e7f378303fa564a922945311239e8b4.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height:25vh;
+    width:100%;
+    margin:auto;
+    transition: all 0.2s ease;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    background:white;
+    text-align: center;
+}
+
+.banner p{
+    padding:1rem;
+}
+
+.hover-ani{
+
+    transform: scale(1.5);
+}
+
+/* .ani-out{
+    transition: all 0.2s ease;
+} */
+
+.box-expand{
+    min-height:10vh;
+    background:red;
+    width:85%;
+    transition: all 0.2s ease;
+}
+
+.box-norm{
+    display: none;
+}
+
+.secrett{
+    transform: scale(1.5);
+    transition: all 0.2s ease;
+}
+
+.child{
+    border:white 2px solid;
+    transform: scale(1.5);
+    transition: all 0.2s ease;
+}
